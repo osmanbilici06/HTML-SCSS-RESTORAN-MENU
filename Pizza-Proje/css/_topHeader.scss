@@ -1,0 +1,48 @@
+.top__header{
+    @extend .justify-between;
+    padding-left: 10%;
+    padding-right: 10%; 
+   
+    
+
+
+
+.top__left{
+   
+
+    li{
+    @extend.li-style
+    }
+}
+
+.center__top{
+
+    font-size: 18px;
+    line-height: 27px;
+    font-family: Poppins-Bold,sans-serif;
+    white-space: nowrap;
+
+  
+    
+
+    li{
+        @extend.li-style;
+        font-weight: 700;
+
+      
+        
+    }
+
+    li:hover{
+        color: #ee6112;
+    }
+}
+
+.top__logo{
+    margin: 20px;
+
+}
+
+
+
+}

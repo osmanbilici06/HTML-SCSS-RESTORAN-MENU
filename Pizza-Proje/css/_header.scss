@@ -1,0 +1,40 @@
+.header__list{
+
+    display: flex;
+    justify-content: center;
+    background-color: #f8f8f8;
+    z-index: 9;
+    min-width: 100%;
+    width: 100%;
+    
+
+    a{
+        @extend.li-style;
+        
+       
+    }
+    li{
+       @extend.ortala;
+        font-size: 12px;
+        line-height: 16px;
+        font-family: Poppins-Medium,sans-serif;
+        text-transform:capitalize;
+        white-space: nowrap;
+        gap: 20px;
+    }
+
+    li:hover{
+        color: #ee6112;
+    }
+
+    img{
+       background: no-repeat;
+       background: center;
+       height: 60px;
+       border-radius: 50%;
+       box-sizing: inherit;
+      padding-left: 10px;
+       
+    }
+
+}
